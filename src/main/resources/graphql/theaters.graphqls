@@ -1,0 +1,12 @@
+type Theater {
+    id: ID
+    name: String
+    location: String
+}
+
+extend type Query {
+    getTheaters: [Theater]
+}
+
+
+
